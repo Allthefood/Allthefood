@@ -2,6 +2,14 @@ body {
   text-align: center;
 }
 
+.h-5 {
+  margin-top: 3%;
+}
+
+.h-4 {
+  margin-top: 3%;
+}
+
 #container1 {
   height: 7rem;
   background-color: #4CAF50;
@@ -18,7 +26,7 @@ body {
   background-color: #4CAF50;
   color: white;
   position: relative;
-  top: 60rem;
+  top: 5rem;
 }
 
 .h-6 {
@@ -72,43 +80,10 @@ body {
 }
 
 .img-1 {
-  background-image: url("imgr.jpg");
+  background-image: url("img-1.jpg");
   width: 180%;
-  position: relative;
   bottom: 100%;
-  left: 20%;
-}
-
-.img-2 {
-  background-image: url("imgs2.jpg");
-  width: 180%;
-  position: relative;
-  right: 93%;
-  top: 20%;
-}
-
-.img-3 {
-  background-image: url("imgc.jpg");
-  width: 180%;
-  position: relative;
-  left: 20%;
-  top: 25%;
-}
-
-.img-4 {
-  background-image: url("imgc1.jpg");
-  width: 180%;
-  position: relative;
-  top: 150%;
-  right: 93%;
-}
-
-.img-5 {
-  background-image: url("imgm6.jpg");
-  width: 180%;
-  position: relative;
-  top: 170%;
-  right: 36%;
+  right: 38%;
 }
 
 .box:hover {
@@ -168,10 +143,5 @@ body {
     position: relative;
     right: 0;
     top: -20%;
-  }
-
-  .f {
-    position: relative;
-    top: 25rem;
   }
 }
